@@ -1,6 +1,6 @@
 :root{
     --white:#f7f7f7;
-    --perper:#5d1451;
+    --perper:#cc52b8;
     --brown:#f58b54;
     --dark-blue:#272121;
 }
@@ -74,17 +74,47 @@ body{
 .middle-container {
     width: 75%;
     margin: 0 auto;
+    border: 2px solid red;
     text-align: center;
 }
+
+.btn {
+	-moz-box-shadow:inset 0px 39px 0px -24px #e67a73;
+	-webkit-box-shadow:inset 0px 39px 0px -24px #e67a73;
+	box-shadow:inset 0px 39px 0px -24px #e67a73;
+	background-color:#e4685d;
+	-moz-border-radius:4px;
+	-webkit-border-radius:4px;
+	border-radius:4px;
+	border:1px solid #ffffff;
+	display:inline-block;
+	cursor:pointer;
+	color:#ffffff;
+	font-family:Arial;
+	font-size:15px;
+	padding:6px 15px;
+	text-decoration:none;
+	text-shadow:0px 1px 0px #b23e35;
+}
+.btn:hover {
+	background-color:#eb675e;
+}
+.btn:active {
+	position:relative;
+	top:1px;
+}
+
+        
+
+
 
 .profile {
     padding-bottom: 3rem;
 }
 
 .profile img {
-    width: 75px;
+    width: 100px;
     padding: 2rem 0;
-    font-family: 'Dancing Script', cursive;
 }
 
 .profile h2 {
@@ -92,7 +122,7 @@ body{
 }
 
 .skills {
-    border: 2px solid red;
+    border: 2px solid green;
 }
 
 .skills h2 {
@@ -100,18 +130,36 @@ body{
 }
 
 .skills h3 {
-    font-size: 3rem;
+    font-size: 2.5rem;
+    margin: 0;
+}
+.skills-image1 {
+    width: 150px;
     float: left;
     margin-right: 3rem;
 }
 
-.skills-image1 {
-    width: 100px;
-    float: left;
-}
-
-.skills-row {
+.skills-row1 {
     text-align: left;
     margin-bottom: 2rem;
-    border: 2px solid green;
+}
+
+.skills-row2 {
+    text-align: right;
+    margin-bottom: 2rem;
+}
+
+.skills-image2 {
+    width: 150px;
+    float: right;
+}
+
+.bottom-container{
+    text-align: center;
+}
+
+.footer-link{
+    font-size: 20px;
+    text-decoration: none;
+    color: var(--perper)
 }
